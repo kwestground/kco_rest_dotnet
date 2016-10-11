@@ -31,7 +31,7 @@ namespace Klarna.Rest.Models
         /// Gets or sets the Item type. Allowed values are: "physical", "discount" or "shipping_fee".
         /// </summary>
         [JsonProperty("type")]
-        public string Type { get; set; }
+        public OrderLineType? Type { get; set; }
 
         /// <summary>
         /// Gets or sets the reference. Optional article number, SKU or similar. Max length is 255 characters.

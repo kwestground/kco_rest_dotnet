@@ -284,5 +284,22 @@ namespace Klarna.Rest.Tests
 
             return updateAuthorization;
         }
+
+        /// <summary>
+        /// Get order line.
+        /// </summary>
+        /// <returns></returns>
+        public static OrderLine GetOrderLine()
+        {
+            OrderLine orderLine = new OrderLine()
+            {
+                Name = "Physical Product",
+                Type = OrderLineType.Physical,
+                Quantity = 1,
+                UnitPrice = 12300
+            };
+
+            return orderLine;
+        }
     }
 }

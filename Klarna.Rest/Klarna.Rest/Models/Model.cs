@@ -47,6 +47,10 @@ namespace Klarna.Rest.Models
                         new IsoDateTimeConverter
                         {
                             DateTimeFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ss.fff'Z'"
+                        },
+                        new StringEnumConverter
+                        {
+                             CamelCaseText = false
                         }
                     }
                 });

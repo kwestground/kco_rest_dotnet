@@ -60,6 +60,7 @@
     <Compile Include="Checkout\CheckoutOrderComponentTests.cs" />
     <Compile Include="Checkout\CheckoutOrderTests.cs" />
     <Compile Include="ClientTests.cs" />
+    <Compile Include="Model\OrderLineTest.cs" />
     <Compile Include="Model\ExtraMerchantDataTest.cs" />
     <Compile Include="OrderManagement\CaptureComponentTests.cs" />
     <Compile Include="OrderManagement\CaptureTests.cs" />

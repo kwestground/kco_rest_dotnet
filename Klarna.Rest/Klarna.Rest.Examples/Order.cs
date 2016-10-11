@@ -221,7 +221,7 @@ namespace Klarna.Rest.Examples
 
                 lines.Add(new OrderLine()
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "123050",
                     Name = "Tomatoes",
                     Quantity = 5,
@@ -428,7 +428,7 @@ namespace Klarna.Rest.Examples
 
                 lines.Add(new OrderLine()
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "123050",
                     Name = "Tomatoes",
                     Quantity = 10,

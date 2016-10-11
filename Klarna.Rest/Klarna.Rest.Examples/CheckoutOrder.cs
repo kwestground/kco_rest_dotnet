@@ -55,7 +55,7 @@ namespace Klarna.Rest.Examples
 
                 OrderLine orderLine = new OrderLine
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "123050",
                     Name = "Tomatoes",
                     Quantity = 10,
@@ -68,7 +68,7 @@ namespace Klarna.Rest.Examples
 
                 OrderLine orderLine2 = new OrderLine
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "543670",
                     Name = "Bananas",
                     Quantity = 1,
@@ -143,7 +143,7 @@ namespace Klarna.Rest.Examples
 
                 OrderLine orderLine = new OrderLine
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "123050",
                     Name = "Tomatoes",
                     Quantity = 10,
@@ -156,7 +156,7 @@ namespace Klarna.Rest.Examples
 
                 OrderLine orderLine2 = new OrderLine
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "543670",
                     Name = "Bananas",
                     Quantity = 1,
@@ -301,7 +301,7 @@ namespace Klarna.Rest.Examples
 
                 lines.Add(new OrderLine()
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "123050",
                     Name = "Tomatoes",
                     Quantity = 10,
@@ -314,7 +314,7 @@ namespace Klarna.Rest.Examples
 
                 lines.Add(new OrderLine()
                 {
-                    Type = "physical",
+                    Type = OrderLineType.Physical,
                     Reference = "543670",
                     Name = "Bananas",
                     Quantity = 1,
@@ -328,7 +328,7 @@ namespace Klarna.Rest.Examples
 
                 lines.Add(new OrderLine()
                 {
-                    Type = "shipping_fee",
+                    Type = OrderLineType.ShippingFee,
                     Name = "Express delivery",
                     Quantity = 1,
                     UnitPrice = 1000,
